@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsguard",
+  "version": "${version}",
+  "name": "FPS Guard",
+  "description": "Ajuste automatiquement les réglages graphiques pour garder les FPS au-dessus de 80 et les remonter quand il y a de la marge.",
+  "authors": ["Nicolas Claude"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.nicolas.fpsguard.FpsGuardClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
